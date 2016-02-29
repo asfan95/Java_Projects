@@ -1,0 +1,37 @@
+import java.awt.*;
+import java.awt.event.*;
+/**
+ * @author asfan
+ *
+ */
+public class Main extends Frame 
+{
+	Main(String title)
+	{
+        //call the superclass constructor
+        super();
+       
+        //set window title using setTitle method
+        this.setTitle(title);
+       
+        /*
+         * Newly created window will not be displayed until we call
+         * setVisible(true).
+         */
+		setUndecorated(true);
+	    setBounds(100, 100, 450, 300);
+	    //the . is the transparent one(last var
+	    setBackground(new Color(1.0f,1.0f,1.0f,0.9f));
+        this.setVisible(true);
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Main window =new Main("Create Window Example");
+	}
+
+}

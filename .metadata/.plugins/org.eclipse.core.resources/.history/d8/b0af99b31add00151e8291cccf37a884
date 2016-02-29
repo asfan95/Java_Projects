@@ -1,0 +1,18 @@
+import java.awt.*;
+import java.awt.event.*;
+/**
+ * @author asfan
+ *
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

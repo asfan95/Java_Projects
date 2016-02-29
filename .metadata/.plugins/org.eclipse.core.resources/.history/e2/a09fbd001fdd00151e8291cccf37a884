@@ -1,0 +1,54 @@
+import java.awt.*;
+import java.awt.event.*;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+/**
+ * @author asfan
+ *
+ */
+public class Main extends JFrame 
+{
+	
+	Main(String title)
+	{
+        //call the superclass constructor
+        super();
+       
+        //set window title using setTitle method
+        this.setTitle(title);
+       
+        /*
+         * Newly created window will not be displayed until we call
+         * setVisible(true).
+         */
+		setUndecorated(true);
+	    setBounds(100, 100, 450, 300);
+	    //the . is the transparent one(last var)
+	    setBackground(new Color(1.0f,1.0f,1.0f,0.9f));
+        this.setVisible(true);
+	}
+	 private static JFrame buildFrame() {
+	        JFrame frame = new JFrame();
+	        frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+	        frame.setSize(200, 200);
+	        frame.setVisible(true);
+	        return frame;
+	    }
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Main window =new Main("Create Window Example");
+		Panel pane = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                g.drawImage(image, 0, 0, null);
+            }
+	}
+
+}

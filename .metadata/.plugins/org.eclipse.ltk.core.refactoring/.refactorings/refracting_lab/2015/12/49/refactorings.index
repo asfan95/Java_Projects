@@ -1,0 +1,10 @@
+1449084596664	Delete element
+1449085298891	Delete element
+1449085301947	Delete element
+1449085492111	Delete elements
+1449085570395	Delete element
+1449088946827	Rename field 'owner'
+1449089737773	Extract interface 'IOwnable'
+1449090212023	Extract method 'calcMonopoliesRent'
+1449090774623	Extract local variable 'colorGroup'
+1449090957457	Change method 'playAction'

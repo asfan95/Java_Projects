@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1446946484461" analysisTimestamp="1446946445369" release="">
+  <Project projectName="Cs 321">
+    <Jar>C:\Users\asfan\Desktop\Java_Projects\Cs 321\src</Jar>
+    <AuxClasspathEntry>C:\Users\asfan\Desktop\Java_Projects\Cs 321\src</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\asfan\Desktop\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\asfan\Desktop\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jre1.8.0_65\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\asfan\Desktop\Java_Projects\Cs 321\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Asfandyar_Khan_userTest">
+      <SourceLine classname="Asfandyar_Khan_userTest" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Class>
+    <Method classname="Asfandyar_Khan_userTest" name="test1" signature="()V" isStatic="false">
+      <SourceLine classname="Asfandyar_Khan_userTest" start="18" end="28" startBytecode="0" endBytecode="16" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Method>
+    <LocalVariable name="quizzes" register="2" pc="10" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="19" end="19" startBytecode="9" endBytecode="9" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="19" end="19" startBytecode="9" endBytecode="9" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="quizzes"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Asfandyar_Khan_userTest">
+      <SourceLine classname="Asfandyar_Khan_userTest" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Class>
+    <Method classname="Asfandyar_Khan_userTest" name="test1" signature="()V" isStatic="false">
+      <SourceLine classname="Asfandyar_Khan_userTest" start="18" end="28" startBytecode="0" endBytecode="16" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Method>
+    <LocalVariable name="users" register="3" pc="18" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="20" end="20" startBytecode="17" endBytecode="17" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="20" end="20" startBytecode="17" endBytecode="17" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="users"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Asfandyar_Khan_userTest">
+      <SourceLine classname="Asfandyar_Khan_userTest" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Class>
+    <Method classname="Asfandyar_Khan_userTest" name="test4" signature="()V" isStatic="false">
+      <SourceLine classname="Asfandyar_Khan_userTest" start="83" end="95" startBytecode="0" endBytecode="28" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Method>
+    <LocalVariable name="quizzes" register="3" pc="20" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="85" end="85" startBytecode="19" endBytecode="19" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="85" end="85" startBytecode="19" endBytecode="19" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="quizzes"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Asfandyar_Khan_userTest">
+      <SourceLine classname="Asfandyar_Khan_userTest" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Class>
+    <Method classname="Asfandyar_Khan_userTest" name="test4" signature="()V" isStatic="false">
+      <SourceLine classname="Asfandyar_Khan_userTest" start="83" end="95" startBytecode="0" endBytecode="28" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Method>
+    <LocalVariable name="users" register="2" pc="12" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="84" end="84" startBytecode="11" endBytecode="11" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="84" end="84" startBytecode="11" endBytecode="11" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="users"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="Asfandyar_Khan_userTest">
+      <SourceLine classname="Asfandyar_Khan_userTest" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Class>
+    <Method classname="Asfandyar_Khan_userTest" name="test3" signature="()V" isStatic="false">
+      <SourceLine classname="Asfandyar_Khan_userTest" start="58" end="77" startBytecode="0" endBytecode="45" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    </Method>
+    <LocalVariable name="instance" register="1" pc="4" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="58" end="58" startBytecode="3" endBytecode="3" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <SourceLine classname="Asfandyar_Khan_userTest" start="58" end="58" startBytecode="3" endBytecode="3" sourcefile="Asfandyar_Khan_userTest.java" sourcepath="Asfandyar_Khan_userTest.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="instance"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="CodingQuestion">
+      <SourceLine classname="CodingQuestion" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Class>
+    <Method classname="CodingQuestion" name="check" signature="(Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="CodingQuestion" start="46" end="87" startBytecode="0" endBytecode="773" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter"/>
+    </Method>
+    <SourceLine classname="CodingQuestion" start="53" end="53" startBytecode="43" endBytecode="43" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    <SourceLine classname="CodingQuestion" start="53" end="53" startBytecode="43" endBytecode="43" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="CodingQuestion">
+      <SourceLine classname="CodingQuestion" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Class>
+    <Method classname="CodingQuestion" name="check" signature="(Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="CodingQuestion" start="46" end="87" startBytecode="0" endBytecode="773" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader"/>
+    </Method>
+    <SourceLine classname="CodingQuestion" start="59" end="59" startBytecode="108" endBytecode="108" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    <SourceLine classname="CodingQuestion" start="59" end="59" startBytecode="108" endBytecode="108" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="CodingQuestion">
+      <SourceLine classname="CodingQuestion" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Class>
+    <Method classname="CodingQuestion" name="wrapCodeInFile" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="CodingQuestion" start="39" end="43" startBytecode="0" endBytecode="162" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter"/>
+    </Method>
+    <SourceLine classname="CodingQuestion" start="40" end="40" startBytecode="58" endBytecode="58" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    <SourceLine classname="CodingQuestion" start="40" end="40" startBytecode="58" endBytecode="58" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE" first="1">
+    <Class classname="CodingQuestion">
+      <SourceLine classname="CodingQuestion" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Class>
+    <SourceLine classname="CodingQuestion" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    <Method classname="Question" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="Question" start="53" end="60" startBytecode="0" endBytecode="136" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="REC_CATCH_EXCEPTION" priority="2" rank="17" abbrev="REC" category="STYLE" first="1">
+    <Class classname="CodingQuestion">
+      <SourceLine classname="CodingQuestion" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Class>
+    <Method classname="CodingQuestion" name="check" signature="(Ljava/lang/String;)Z" isStatic="false">
+      <SourceLine classname="CodingQuestion" start="46" end="87" startBytecode="0" endBytecode="773" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    </Method>
+    <SourceLine classname="CodingQuestion" start="85" end="85" startBytecode="411" endBytecode="411" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+    <SourceLine classname="CodingQuestion" start="85" end="85" startBytecode="411" endBytecode="411" sourcefile="CodingQuestion.java" sourcepath="CodingQuestion.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE" first="1">
+    <Class classname="DatabaseSingleton">
+      <SourceLine classname="DatabaseSingleton" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Class>
+    <Method classname="DatabaseSingleton" name="loadDatabase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="DatabaseSingleton" start="36" end="101" startBytecode="0" endBytecode="241" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Method>
+    <String value="C:/Users/asfan/Desktop/Java_Projects/Cs 321/database.txt" role="FILE_NAME"/>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="10" endBytecode="10" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="10" endBytecode="10" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="DatabaseSingleton">
+      <SourceLine classname="DatabaseSingleton" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Class>
+    <Method classname="DatabaseSingleton" name="loadDatabase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="DatabaseSingleton" start="36" end="101" startBytecode="0" endBytecode="1032" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader"/>
+    </Method>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="10" endBytecode="10" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="10" endBytecode="10" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="DatabaseSingleton">
+      <SourceLine classname="DatabaseSingleton" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Class>
+    <Method classname="DatabaseSingleton" name="loadDatabase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="DatabaseSingleton" start="36" end="101" startBytecode="0" endBytecode="1032" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Method>
+    <LocalVariable name="q" register="7" pc="241" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="DatabaseSingleton" start="71" end="71" startBytecode="259" endBytecode="259" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="DatabaseSingleton" start="48" end="48" startBytecode="69" endBytecode="69" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="DatabaseSingleton" start="66" end="66" startBytecode="244" endBytecode="244" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" rank="16" abbrev="OS" category="BAD_PRACTICE" first="1">
+    <Class classname="DatabaseSingleton">
+      <SourceLine classname="DatabaseSingleton" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Class>
+    <Method classname="DatabaseSingleton" name="loadDatabase" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="DatabaseSingleton" start="36" end="101" startBytecode="0" endBytecode="241" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader"/>
+    </Type>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+    <SourceLine classname="DatabaseSingleton" start="36" end="36" startBytecode="0" endBytecode="0" sourcefile="DatabaseSingleton.java" sourcepath="DatabaseSingleton.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="GradeServer">
+      <SourceLine classname="GradeServer" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    </Class>
+    <Method classname="GradeServer" name="flush" signature="()V" isStatic="true">
+      <SourceLine classname="GradeServer" start="36" end="42" startBytecode="0" endBytecode="104" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    </Method>
+    <Method classname="java.io.FileWriter" name="&lt;init&gt;" signature="(Ljava/lang/String;Z)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileWriter"/>
+    </Method>
+    <SourceLine classname="GradeServer" start="36" end="36" startBytecode="11" endBytecode="11" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    <SourceLine classname="GradeServer" start="36" end="36" startBytecode="11" endBytecode="11" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="GradeServer">
+      <SourceLine classname="GradeServer" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    </Class>
+    <Method classname="GradeServer" name="lookup" signature="(Ljava/lang/String;)Ljava/util/ArrayList;" isStatic="true">
+      <SourceLine classname="GradeServer" start="49" end="68" startBytecode="0" endBytecode="443" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    </Method>
+    <Method classname="java.io.FileReader" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.FileReader"/>
+    </Method>
+    <SourceLine classname="GradeServer" start="51" end="51" startBytecode="18" endBytecode="18" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+    <SourceLine classname="GradeServer" start="51" end="51" startBytecode="18" endBytecode="18" sourcefile="GradeServer.java" sourcepath="GradeServer.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="createQuestion" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="89" end="138" startBytecode="0" endBytecode="941" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="Main" start="120" end="120" startBytecode="277" endBytecode="277" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="120" end="120" startBytecode="277" endBytecode="277" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOXED_PRIMITIVE_FOR_PARSING" priority="1" rank="16" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="viewGrades" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="141" end="170" startBytecode="0" endBytecode="795" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="intValue" signature="()I" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="parseInt" signature="(Ljava/lang/String;)I" isStatic="true" role="SHOULD_CALL"/>
+    <SourceLine classname="Main" start="163" end="163" startBytecode="298" endBytecode="298" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="163" end="163" startBytecode="298" endBytecode="298" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="&lt;clinit&gt;" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="11" end="11" startBytecode="0" endBytecode="45" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="Main" start="11" end="11" startBytecode="7" endBytecode="7" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="11" end="11" startBytecode="7" endBytecode="7" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="createQuestion" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="89" end="138" startBytecode="0" endBytecode="941" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="Main" start="120" end="120" startBytecode="274" endBytecode="274" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="120" end="120" startBytecode="274" endBytecode="274" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="takeQuiz" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="67" end="86" startBytecode="0" endBytecode="472" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="Main" start="76" end="76" startBytecode="100" endBytecode="100" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="76" end="76" startBytecode="100" endBytecode="100" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NUMBER_CTOR" priority="2" rank="18" abbrev="Bx" category="PERFORMANCE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="viewGrades" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="141" end="170" startBytecode="0" endBytecode="795" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <Method classname="java.lang.Integer" name="valueOf" signature="(Ljava/lang/String;)Ljava/lang/Integer;" isStatic="true" role="SHOULD_CALL">
+      <SourceLine classname="java.lang.Integer"/>
+    </Method>
+    <SourceLine classname="Main" start="163" end="163" startBytecode="295" endBytecode="295" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="163" end="163" startBytecode="295" endBytecode="295" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Main" start="17" end="64" startBytecode="0" endBytecode="658" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Field classname="Main" name="user" signature="LUser;" isStatic="true" role="FIELD_CONTAINS_VALUE">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Field>
+    <SourceLine classname="Main" start="36" end="36" startBytecode="149" endBytecode="149" sourcefile="Main.java" sourcepath="Main.java" role="SOURCE_LINE_DEREF"/>
+    <SourceLine classname="Main" start="27" end="27" startBytecode="100" endBytecode="100" sourcefile="Main.java" sourcepath="Main.java" role="SOURCE_LINE_KNOWN_NULL"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_PARAM_DEREF" priority="2" rank="8" abbrev="NP" category="CORRECTNESS" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="createQuestion" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="89" end="138" startBytecode="0" endBytecode="941" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <Method classname="Quiz" name="addQuestion" signature="(LQuestion;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="Quiz" start="77" end="79" startBytecode="0" endBytecode="85" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Int value="1" role="INT_MAYBE_NULL_ARG"/>
+    <LocalVariable name="q" register="9" pc="302" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="Main" start="137" end="137" startBytecode="427" endBytecode="427" sourcefile="Main.java" sourcepath="Main.java" role="SOURCE_LINE_INVOKED"/>
+    <SourceLine classname="Main" start="121" end="121" startBytecode="290" endBytecode="290" sourcefile="Main.java" sourcepath="Main.java" role="SOURCE_LINE_NULL_VALUE"/>
+    <SourceLine classname="Main" start="122" end="122" startBytecode="305" endBytecode="305" sourcefile="Main.java" sourcepath="Main.java" role="SOURCE_LINE_KNOWN_NULL"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.ALWAYS_ON_EXCEPTION_PATH" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullDerefProperty.LONG_RANGE_NULL_SOURCE" value="true"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" rank="19" abbrev="SF" category="STYLE" first="1">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="createQuestion" signature="()V" isStatic="true">
+      <SourceLine classname="Main" start="89" end="138" startBytecode="0" endBytecode="941" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <SourceLine classname="Main" start="122" end="134" startBytecode="305" endBytecode="422" sourcefile="Main.java" sourcepath="Main.java"/>
+    <SourceLine classname="Main" start="122" end="134" startBytecode="305" endBytecode="422" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE" first="1">
+    <Class classname="MultipleChoiceQuestion">
+      <SourceLine classname="MultipleChoiceQuestion" sourcefile="MultipleChoiceQuestion.java" sourcepath="MultipleChoiceQuestion.java"/>
+    </Class>
+    <SourceLine classname="MultipleChoiceQuestion" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="MultipleChoiceQuestion.java" sourcepath="MultipleChoiceQuestion.java"/>
+    <Method classname="Question" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="Question" start="53" end="60" startBytecode="0" endBytecode="136" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" rank="18" abbrev="SBSC" category="PERFORMANCE" first="1">
+    <Class classname="MultipleChoiceQuestion">
+      <SourceLine classname="MultipleChoiceQuestion" sourcefile="MultipleChoiceQuestion.java" sourcepath="MultipleChoiceQuestion.java"/>
+    </Class>
+    <Method classname="MultipleChoiceQuestion" name="toString" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="MultipleChoiceQuestion" start="24" end="28" startBytecode="0" endBytecode="209" sourcefile="MultipleChoiceQuestion.java" sourcepath="MultipleChoiceQuestion.java"/>
+    </Method>
+    <SourceLine classname="MultipleChoiceQuestion" start="26" end="26" startBytecode="30" endBytecode="30" sourcefile="MultipleChoiceQuestion.java" sourcepath="MultipleChoiceQuestion.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS" priority="1" rank="14" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="Question">
+      <SourceLine classname="Question" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Class>
+    <Method classname="Question" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Question" start="53" end="60" startBytecode="0" endBytecode="136" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <SourceLine classname="Question" start="57" end="57" startBytecode="25" endBytecode="25" sourcefile="Question.java" sourcepath="Question.java"/>
+    <SourceLine classname="Question" start="57" end="57" startBytecode="25" endBytecode="25" sourcefile="Question.java" sourcepath="Question.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="Question">
+      <SourceLine classname="Question" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Class>
+    <Method classname="Question" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Question" start="53" end="60" startBytecode="0" endBytecode="136" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="Question">
+      <SourceLine classname="Question" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Class>
+    <Method classname="Question" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="Question" start="9" end="15" startBytecode="0" endBytecode="126" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Method>
+    <Field classname="Question" name="count" signature="I" isStatic="true">
+      <SourceLine classname="Question" sourcefile="Question.java" sourcepath="Question.java"/>
+    </Field>
+    <SourceLine classname="Question" start="13" end="13" startBytecode="41" endBytecode="41" sourcefile="Question.java" sourcepath="Question.java"/>
+    <SourceLine classname="Question" start="13" end="13" startBytecode="41" endBytecode="41" sourcefile="Question.java" sourcepath="Question.java"/>
+  </BugInstance>
+  <BugInstance type="CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE" priority="1" rank="14" abbrev="CN" category="BAD_PRACTICE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="clone" signature="()LQuiz;" isStatic="false">
+      <SourceLine classname="Quiz" start="139" end="158" startBytecode="0" endBytecode="308" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="clone" signature="()LQuiz;" isStatic="false">
+      <SourceLine classname="Quiz" start="139" end="158" startBytecode="0" endBytecode="308" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <SourceLine classname="Quiz" start="153" end="153" startBytecode="90" endBytecode="90" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="153" end="153" startBytecode="90" endBytecode="90" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="DM_BOOLEAN_CTOR" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="score" signature="()I" isStatic="false">
+      <SourceLine classname="Quiz" start="118" end="124" startBytecode="0" endBytecode="174" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <SourceLine classname="Quiz" start="121" end="121" startBytecode="32" endBytecode="32" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="121" end="121" startBytecode="32" endBytecode="32" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="answerQuestion" signature="(Ljava/lang/String;)LQuestion;" isStatic="false">
+      <SourceLine classname="Quiz" start="82" end="114" startBytecode="0" endBytecode="649" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner"/>
+    </Method>
+    <SourceLine classname="Quiz" start="87" end="87" startBytecode="89" endBytecode="89" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="87" end="87" startBytecode="89" endBytecode="89" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS" priority="1" rank="14" abbrev="Eq" category="BAD_PRACTICE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Quiz" start="128" end="135" startBytecode="0" endBytecode="136" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String"/>
+    </Type>
+    <SourceLine classname="Quiz" start="132" end="132" startBytecode="25" endBytecode="25" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="132" end="132" startBytecode="25" endBytecode="25" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="HE_EQUALS_USE_HASHCODE" priority="1" rank="14" abbrev="HE" category="BAD_PRACTICE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false">
+      <SourceLine classname="Quiz" start="128" end="135" startBytecode="0" endBytecode="136" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="Quiz" start="16" end="22" startBytecode="0" endBytecode="146" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Field classname="Quiz" name="count" signature="I" isStatic="true">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Field>
+    <SourceLine classname="Quiz" start="18" end="18" startBytecode="19" endBytecode="19" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="18" end="18" startBytecode="19" endBytecode="19" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="clone" signature="()LQuiz;" isStatic="false">
+      <SourceLine classname="Quiz" start="139" end="158" startBytecode="0" endBytecode="308" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Field classname="Quiz" name="count" signature="I" isStatic="true">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Field>
+    <SourceLine classname="Quiz" start="142" end="142" startBytecode="17" endBytecode="17" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="142" end="142" startBytecode="17" endBytecode="17" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <BugInstance type="WMI_WRONG_MAP_ITERATOR" priority="2" rank="18" abbrev="WMI" category="PERFORMANCE" first="1">
+    <Class classname="Quiz">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Class>
+    <Method classname="Quiz" name="clone" signature="()LQuiz;" isStatic="false">
+      <SourceLine classname="Quiz" start="139" end="158" startBytecode="0" endBytecode="308" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Method>
+    <Field classname="Quiz" name="answers" signature="Ljava/util/HashMap;" isStatic="false">
+      <SourceLine classname="Quiz" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    </Field>
+    <SourceLine classname="Quiz" start="153" end="153" startBytecode="81" endBytecode="81" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+    <SourceLine classname="Quiz" start="153" end="153" startBytecode="81" endBytecode="81" sourcefile="Quiz.java" sourcepath="Quiz.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 30 Oct 2015 21:42:07 -0400" total_classes="13" referenced_classes="54" total_bugs="39" total_size="653" num_packages="1" java_version="1.8.0_65" vm_version="25.65-b01" cpu_seconds="92.00" clock_seconds="39.22" peak_mbytes="540.53" alloc_mbytes="910.50" gc_seconds="0.19" priority_2="20" priority_1="19">
+    <PackageStats package="" total_bugs="39" total_types="13" total_size="653" priority_2="20" priority_1="19">
+      <ClassStats class="Asfandyar_Khan_userTest" sourceFile="Asfandyar_Khan_userTest.java" interface="false" size="43" bugs="5" priority_2="1" priority_1="4"/>
+      <ClassStats class="CodingQuestion" sourceFile="CodingQuestion.java" interface="false" size="60" bugs="5" priority_2="2" priority_1="3"/>
+      <ClassStats class="Correct" sourceFile="Correct.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="DatabaseSingleton" sourceFile="DatabaseSingleton.java" interface="false" size="93" bugs="4" priority_2="3" priority_1="1"/>
+      <ClassStats class="DatabaseSingletonTestCases" sourceFile="DatabaseSingletonTestCases.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="GradeServer" sourceFile="GradeServer.java" interface="false" size="45" bugs="2" priority_1="2"/>
+      <ClassStats class="Home" sourceFile="Home.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Home$1" sourceFile="Home.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="144" bugs="9" priority_2="6" priority_1="3"/>
+      <ClassStats class="MultipleChoiceQuestion" sourceFile="MultipleChoiceQuestion.java" interface="false" size="18" bugs="2" priority_2="2"/>
+      <ClassStats class="Question" sourceFile="Question.java" interface="false" size="45" bugs="3" priority_2="1" priority_1="2"/>
+      <ClassStats class="Quiz" sourceFile="Quiz.java" interface="false" size="113" bugs="9" priority_2="5" priority_1="4"/>
+      <ClassStats class="User" sourceFile="User.java" interface="false" size="54" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="3235" invocations="2" avgMicrosecondsPerInvocation="1617954" maxMicrosecondsPerInvocation="2262126" standardDeviationMircosecondsPerInvocation="644172"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1464" invocations="542" avgMicrosecondsPerInvocation="2702" maxMicrosecondsPerInvocation="157509" standardDeviationMircosecondsPerInvocation="9569"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1284" invocations="544" avgMicrosecondsPerInvocation="2362" maxMicrosecondsPerInvocation="34940" standardDeviationMircosecondsPerInvocation="4349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="735" invocations="107" avgMicrosecondsPerInvocation="6872" maxMicrosecondsPerInvocation="73226" standardDeviationMircosecondsPerInvocation="16088"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="700" invocations="54" avgMicrosecondsPerInvocation="12981" maxMicrosecondsPerInvocation="122253" standardDeviationMircosecondsPerInvocation="23124"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="575" invocations="101" avgMicrosecondsPerInvocation="5697" maxMicrosecondsPerInvocation="80430" standardDeviationMircosecondsPerInvocation="13618"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="532" invocations="54" avgMicrosecondsPerInvocation="9853" maxMicrosecondsPerInvocation="130472" standardDeviationMircosecondsPerInvocation="19556"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="508" invocations="240" avgMicrosecondsPerInvocation="2116" maxMicrosecondsPerInvocation="29028" standardDeviationMircosecondsPerInvocation="3339"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="507" invocations="100" avgMicrosecondsPerInvocation="5078" maxMicrosecondsPerInvocation="73368" standardDeviationMircosecondsPerInvocation="11594"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="505" invocations="103" avgMicrosecondsPerInvocation="4907" maxMicrosecondsPerInvocation="71671" standardDeviationMircosecondsPerInvocation="12456"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="484" invocations="100" avgMicrosecondsPerInvocation="4846" maxMicrosecondsPerInvocation="54642" standardDeviationMircosecondsPerInvocation="11411"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="478" invocations="56" avgMicrosecondsPerInvocation="8537" maxMicrosecondsPerInvocation="40083" standardDeviationMircosecondsPerInvocation="7995"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="407" invocations="53" avgMicrosecondsPerInvocation="7693" maxMicrosecondsPerInvocation="89644" standardDeviationMircosecondsPerInvocation="15939"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="354" invocations="101" avgMicrosecondsPerInvocation="3514" maxMicrosecondsPerInvocation="58303" standardDeviationMircosecondsPerInvocation="9183"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="268" invocations="83" avgMicrosecondsPerInvocation="3230" maxMicrosecondsPerInvocation="133176" standardDeviationMircosecondsPerInvocation="14933"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="248" invocations="101" avgMicrosecondsPerInvocation="2460" maxMicrosecondsPerInvocation="180535" standardDeviationMircosecondsPerInvocation="17847"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="186" invocations="54" avgMicrosecondsPerInvocation="3462" maxMicrosecondsPerInvocation="31006" standardDeviationMircosecondsPerInvocation="6457"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="184" invocations="53" avgMicrosecondsPerInvocation="3473" maxMicrosecondsPerInvocation="35487" standardDeviationMircosecondsPerInvocation="7028"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="172" invocations="54" avgMicrosecondsPerInvocation="3194" maxMicrosecondsPerInvocation="113267" standardDeviationMircosecondsPerInvocation="15209"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="154" invocations="54" avgMicrosecondsPerInvocation="2854" maxMicrosecondsPerInvocation="47267" standardDeviationMircosecondsPerInvocation="7277"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1446946484441" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
